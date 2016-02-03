@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<html lang ="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+	<title>leave some treasure: feedback form</title>
+
+<!--googlefont-->
+<link href='https://fonts.googleapis.com/css?family=Exo:400,600' rel='stylesheet' type='text/css'>
+
+<!--bootstrap styles-->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!--CUSTOM STYLES-->
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+
+
+<div class="myDiv">
+
+	<div class="imagediv">
+		<img src="images/calvin.png" class="img-responsive" alt="digging for treasure">
+	</div>
+
+	<h1>got feedback?</h1>
+	
+		<div class="form-group">
+				<label for="name">name:</label>
+				<input class="form-control" rows="1" id="userName" type="text" placeholder="what's your name?">
+				<br>
+
+				<label for="comment">comment:</label>
+
+				<textarea class="form-control" rows="2" id="feedbackHere"  placeholder="tell me something interesting"></textarea>
+				<br>
+				<input class="btn btn-default" type="submit" onclick="submitFeedback()" value="submit"></button>
+
+			</form>
+
+			<hr class="soften">
+		
+<!--comment displays in ul-->
+			<ul id="listAll">
+			</ul>
+
+			
+
+	</div> 
+
+
+
+<!--scripts-->
+
+<!--bootstrap minified js-->
+<script src="js/bootstrap.min.js"></script>
+
+ <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+
+<!--external custom js for comment functionality-->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
